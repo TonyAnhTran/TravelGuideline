@@ -52,8 +52,6 @@
 		36F5C78B1A5D3D1600E05C27 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C7771A5D3D1600E05C27 /* UIProgressView+AFNetworking.m */; };
 		36F5C78C1A5D3D1600E05C27 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C7791A5D3D1600E05C27 /* UIRefreshControl+AFNetworking.m */; };
 		36F5C78D1A5D3D1600E05C27 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C77B1A5D3D1600E05C27 /* UIWebView+AFNetworking.m */; };
-		36F5C7931A5D3D3E00E05C27 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C7901A5D3D3E00E05C27 /* Reachability.m */; };
-		36F5C7941A5D3D3E00E05C27 /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C7921A5D3D3E00E05C27 /* ReachabilityAppDelegate.m */; };
 		36F5C7981A5D3D7800E05C27 /* SZJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C7971A5D3D7800E05C27 /* SZJsonParser.m */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +78,7 @@
 		36A87C751A5E193100C693C4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		36A87C771A5E193600C693C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		36A87C791A5E194100C693C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		36AD6E301A5E29E400ABDEC9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		36F5C7081A5D39C700E05C27 /* Travel Guides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Guides.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F5C70C1A5D39C700E05C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36F5C70D1A5D39C700E05C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -147,10 +146,6 @@
 		36F5C7791A5D3D1600E05C27 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		36F5C77A1A5D3D1600E05C27 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		36F5C77B1A5D3D1600E05C27 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		36F5C78F1A5D3D3E00E05C27 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		36F5C7901A5D3D3E00E05C27 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		36F5C7911A5D3D3E00E05C27 /* ReachabilityAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityAppDelegate.h; sourceTree = "<group>"; };
-		36F5C7921A5D3D3E00E05C27 /* ReachabilityAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityAppDelegate.m; sourceTree = "<group>"; };
 		36F5C7961A5D3D7800E05C27 /* SZJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZJsonParser.h; sourceTree = "<group>"; };
 		36F5C7971A5D3D7800E05C27 /* SZJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZJsonParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -280,6 +275,7 @@
 			children = (
 				36F5C70C1A5D39C700E05C27 /* Info.plist */,
 				36F5C70D1A5D39C700E05C27 /* main.m */,
+				36AD6E301A5E29E400ABDEC9 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -322,7 +318,6 @@
 			isa = PBXGroup;
 			children = (
 				36F5C7951A5D3D7800E05C27 /* JSONParser */,
-				36F5C78E1A5D3D3E00E05C27 /* Reachability */,
 				36F5C7521A5D3D1600E05C27 /* AFNetworking */,
 				36F5C7411A5D3CD000E05C27 /* fmdb */,
 			);
@@ -414,17 +409,6 @@
 				36F5C77B1A5D3D1600E05C27 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
-			sourceTree = "<group>";
-		};
-		36F5C78E1A5D3D3E00E05C27 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				36F5C78F1A5D3D3E00E05C27 /* Reachability.h */,
-				36F5C7901A5D3D3E00E05C27 /* Reachability.m */,
-				36F5C7911A5D3D3E00E05C27 /* ReachabilityAppDelegate.h */,
-				36F5C7921A5D3D3E00E05C27 /* ReachabilityAppDelegate.m */,
-			);
-			path = Reachability;
 			sourceTree = "<group>";
 		};
 		36F5C7951A5D3D7800E05C27 /* JSONParser */ = {
@@ -566,9 +550,7 @@
 				36F5C7171A5D39C700E05C27 /* DetailViewController.m in Sources */,
 				36F5C7821A5D3D1600E05C27 /* AFURLRequestSerialization.m in Sources */,
 				36F5C77F1A5D3D1600E05C27 /* AFNetworkReachabilityManager.m in Sources */,
-				36F5C7941A5D3D3E00E05C27 /* ReachabilityAppDelegate.m in Sources */,
 				36F5C7501A5D3CD000E05C27 /* FMDatabaseQueue.m in Sources */,
-				36F5C7931A5D3D3E00E05C27 /* Reachability.m in Sources */,
 				36F5C78D1A5D3D1600E05C27 /* UIWebView+AFNetworking.m in Sources */,
 				36F5C77C1A5D3D1600E05C27 /* AFHTTPRequestOperation.m in Sources */,
 				36F5C77E1A5D3D1600E05C27 /* AFHTTPSessionManager.m in Sources */,
@@ -696,6 +678,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Travel Guides/PrefixHeader.pch";
 				INFOPLIST_FILE = "Travel Guides/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
@@ -707,6 +690,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Travel Guides/PrefixHeader.pch";
 				INFOPLIST_FILE = "Travel Guides/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";

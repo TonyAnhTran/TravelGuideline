@@ -416,7 +416,7 @@
         ret = [self parseImpl];
     }
     @catch (NSException *e) {
-        DLog(@"JSON Parsing Error: %@", [e reason]);
+        NSLog(@"JSON Parsing Error: %@", [e reason]);
     }
     return ret;
 }
